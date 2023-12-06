@@ -1,8 +1,7 @@
 
-import { SqsDestination, LambdaDestination } from 'aws-cdk-lib/aws-lambda-destinations';
+import { LambdaDestination } from 'aws-cdk-lib/aws-lambda-destinations';
 import { Bucket } from 'aws-cdk-lib/aws-s3';
 import { SnsTopic } from 'aws-cdk-lib/aws-events-targets';
-import { Queue } from 'aws-cdk-lib/aws-sqs';
 import { Stack, StackProps } from 'aws-cdk-lib';
 import { Topic } from 'aws-cdk-lib/aws-sns';
 import { Construct } from 'constructs';
